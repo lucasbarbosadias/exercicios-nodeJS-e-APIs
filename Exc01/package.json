@@ -1,0 +1,15 @@
+{
+  "name": "Exc01",
+  "version": "1.0.0",
+  "description": "01 - Criar um programa nodejs que faça uma chamada http em um site qualquer.",
+  "main": "exc01.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
