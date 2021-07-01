@@ -1,0 +1,19 @@
+{
+  "name": "Exc06",
+  "version": "1.0.0",
+  "description": "06 - Crie uma api que receba no body os parâmetros max_velocity_allowed e car_velocity.\r Com esses dados você deve calcular e retornar se a pessoa recebeu uma multa de trânsito.\r o retorno deve conter os seguintes dados:\r {\r    traffic_ticket: true/false,\r    velocity__exceeded: 66,\r    percentage_exceeded: \"10%\"\r }\r Para determinar se a pessoa recebeu uma multa ela deve ter ultrapassado em pelo menos 10% o limite da via (max_velocity_allowed)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/exc06.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.9"
+  }
+}
