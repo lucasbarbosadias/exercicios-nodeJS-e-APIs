@@ -1,0 +1,19 @@
+{
+  "name": "Exc04",
+  "version": "1.0.0",
+  "description": "04 - Crie uma api que receba o objeto abaixo, retorne a propriedade last_name e retorne o tamanho do objeto\r {\r    name: \"Fulano\",\r    last_name: \"Ciclano\",\r    birthday: \"01/01/1990\",\r    age: 30,\r    department: \"Software Engineering\"\r }",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/exc04.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.9"
+  }
+}
