@@ -1,0 +1,19 @@
+{
+  "name": "Exc03",
+  "version": "1.0.0",
+  "description": "03 - Crie uma api que utilizando o método POST que receba o salário bruto e retorne o salário líquido",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/exc03.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.9"
+  }
+}
