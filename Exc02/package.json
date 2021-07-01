@@ -1,0 +1,20 @@
+{
+  "name": "Exc02",
+  "version": "1.0.0",
+  "description": "02 - Crie uma api utilizando o método GET que retorne os seguintes dados:",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/exc02.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "-": "0.0.1",
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.9",
+    "save-dev": "0.0.1-security"
+  }
+}
